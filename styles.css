@@ -7,7 +7,11 @@ body {
     background-position: center;
     background-attachment: fixed; /* Pour que le fond reste fixe lors du défilement */
 }
-
+header h1 {
+    font-size: 3em; /* Ajustez la taille comme vous le souhaitez */
+    margin: 0;
+    padding-top: 20px; /* Ajustez l'espace au-dessus du titre */
+}
 header, main, footer {
     text-align: center;
     padding: 20px;
@@ -36,6 +40,8 @@ img {
 #countdown {
     font-size: 1.5em;
     margin: 20px 0;
+    margin-bottom: 20px; /* Ajustez l'espace au-dessous du compte à rebours */
+
 }
 
 #countdown-timer {
