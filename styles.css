@@ -30,5 +30,14 @@ img {
     }
 }
 
+#countdown {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#countdown-timer {
+    font-weight: bold;
+}
+
 /* Ajouter d'autres styles ici */
 
