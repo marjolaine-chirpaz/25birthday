@@ -9,6 +9,10 @@ header, main, footer {
     text-align: center;
     padding: 20px;
 }
+header img {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de l'écran */
+    height: auto; /* Permet de conserver les proportions de l'image */
+}
 
 /* Ajouter d'autres styles ici */
 
