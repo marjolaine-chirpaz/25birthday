@@ -57,6 +57,17 @@ iframe {
     max-width: 600px; /* Pour limiter la largeur maximale */
     height: 400px; /* Ajustez la hauteur selon vos besoins */
 }
+main {
+    display: flex;
+    justify-content: center; /* Centre horizontalement dans le conteneur main */
+    align-items: center; /* Centre verticalement */
+    min-height: 100vh; /* Assure que le conteneur main prend au moins la hauteur de la fenêtre */
+}
+
+.typeform-widget {
+    width: 100%; /* Ajustez cette valeur selon la largeur désirée pour votre Typeform */
+    max-width: 500px; /* Optionnel: limite la largeur max de Typeform */
+}
 
 
 /* Ajouter d'autres styles ici */
