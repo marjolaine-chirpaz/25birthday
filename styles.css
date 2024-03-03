@@ -48,5 +48,16 @@ img {
     font-weight: bold;
 }
 
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Ajoutez des dimensions si nécessaire */
+    width: 90%; /* Ou une autre largeur selon vos besoins */
+    max-width: 600px; /* Pour limiter la largeur maximale */
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+}
+
+
 /* Ajouter d'autres styles ici */
 
