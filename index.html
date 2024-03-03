@@ -8,14 +8,29 @@
 <body>
     <header>
         <!-- Ici, nous ajouterons plus tard l'image de votre affiche et le compteur à rebours -->
+            <img src="chemin_vers_votre_image/affiche.png" alt="Affiche Anniversaire Marjolaine">
+            <div id="countdown">
+            </div>
+
     </header>
     
     <main>
         <!-- Ici, nous intégrerons le formulaire RSVP -->
+    <form id="rsvp-form">
+        <label for="name">Votre nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Votre email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" value="Confirmer">
+    </form>
     </main>
     
     <footer>
         <!-- Informations de pied de page si nécessaire -->
+    <p>Pour toute question, veuillez me contacter à [votre-email]@exemple.com</p>
+
     </footer>
     
     <script src="scripts.js"></script>
